@@ -22,6 +22,11 @@
 	max-height: 100px;
 }
 
+.card .content img.full-size{
+	max-width: 300px;
+	max-height: 300px;
+}
+
 .buttons{
 	display: flex;
 	justify-content: space-around;;
