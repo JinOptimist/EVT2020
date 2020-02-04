@@ -1,0 +1,32 @@
+.card{
+	width: 250px;
+    height: 150px;
+	border: 1px red solid;
+}
+
+.card .content,
+.card .buttons{
+	display: flex;
+}
+
+.card .content .image{
+	width: 100px;
+	height: 100px;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card .content img{
+	max-width: 100px;
+	max-height: 100px;
+}
+
+.buttons{
+	display: flex;
+	justify-content: space-around;;
+}
+
+.buttons input{
+	width: 100px;
+}

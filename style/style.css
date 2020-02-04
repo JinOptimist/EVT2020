@@ -1,0 +1,54 @@
+.header{
+	background: green;
+	text-align: center;
+    font-size: 40px;
+    border-radius: 20px;
+}
+
+.center-block{
+	display: flex;
+}
+
+.left-menu{
+	width: 120px;
+}
+
+.content{
+	flex: 1;
+}
+
+.content img{
+	max-height: 50px;
+}
+
+.adv{
+	width: 80px;
+}
+
+.adv img{
+	max-width: 80px;
+}
+
+.left-menu li{
+	list-style-type: none;
+}
+
+.left-menu li:hover{
+	background: antiquewhite;
+}
+
+.left-menu li:hover a{
+	color: orange;
+}
+
+.footer{
+	text-align: center;
+	font-size: 10px;
+	color: gray;
+}
+
+.center-block > .content{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
