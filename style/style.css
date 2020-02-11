@@ -52,3 +52,67 @@
 	justify-content: space-around;
 	flex-wrap: wrap;
 }
+
+.spoiler{
+	border: 1px #ccc solid;
+	border-radius: 20px;
+	padding: 10px;
+	margin: 5px;
+}
+
+.spoiler .quest{
+	cursor: pointer;
+}
+
+.spoiler .answer{
+	border-top: 1px #ccc solid;
+	padding-top: 10px;
+	margin-top: 5px;
+	display: none;
+}
+
+.popup-parent{
+	display: none;
+}
+
+.popup{
+	position: fixed;
+    left: 0;
+    top: 0;
+	width: 100%;
+    height: 100vh;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cover{
+	background: #000;
+    opacity: 0.8;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+	z-index: 10;
+}
+
+.popup-content{
+	font-size: 60px;
+    position: fixed;
+	z-index: 50;
+	background: #fff;
+	width: 300px;
+	height: 200px;
+}
+
+.popup .toolbar{
+	display: flex;
+	justify-content: flex-end;
+}
+
+.template{
+	display: none;
+}
+
+

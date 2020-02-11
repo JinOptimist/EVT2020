@@ -2,6 +2,7 @@
 <head>
 	<link rel="stylesheet" href="style/style.css">
 	<link rel="stylesheet" href="style/card.css">
+	<link rel="stylesheet" href="style/icon.css">
 	
 	<script src="js/jquery-3.4.1.min.js"></script>
 	<script src="js/index.js"></script>
@@ -13,12 +14,25 @@
 	<div class='center-block'>
 		<div class='left-menu'>
 			<ul>
-				<li><a href='googl.com'>test 1</a></li>
+				<li><a href='index.html'>Галерея</a></li>
+				<li><a href='about.html'>О нас</a></li>
+				
 				<li><a target='_blank' href='https://flexboxfroggy.com/#ru'>Лягушки</a></li>
 				<li><a target='_blank' href='https://flukeout.github.io/'>Тарелки</a></li>
 			</ul>
 		</div>
 		<div class='content'>
+			<div class='card'>
+				<div>
+					Создать новую картинку
+				</div>
+				<div>
+					Example: image/girl3.png
+					<input class='girl-path' placeholder='Путь к девочке' />
+					<input class='add-girl' type='button' value='Добавить'>
+				</div>
+			</div>
+
 			<div class='card'>
 				<div class='content'>
 					<div class='image'>
@@ -86,5 +100,41 @@
 		Все права правильные
 	</div>
 	
+	<div class='popup-parent'>
+		<div class='popup'>
+			<div class='cover'></div>
+			<div class='popup-content'>
+				<div class='toolbar'>
+					<span class='icon close'></span>
+				</div>
+				<div>
+					Добро пожаловать
+				</div>
+			</div>
+			
+		</div>
+	</div>
+	
+	
+	<div class='template'>
+		<div class='card'>
+			<div class='content'>
+				<div class='image'>
+					<img src='image/girl1.jpg' />
+				</div>
+				<div class='info'>
+					Test
+				</div>
+			</div>
+			<div class='buttons'>
+				<div>
+					<input type='button' value='+' />
+				</div>
+				<div>
+					<input type='button' value='-' />
+				</div>
+			</div>
+		</div>
+	</div>
 </body>
 </html>
